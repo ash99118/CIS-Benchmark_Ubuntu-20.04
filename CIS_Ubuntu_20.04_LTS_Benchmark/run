@@ -67,7 +67,7 @@ fi
 echo "CIS Ubuntu Linux 20.04 LTS Benchmark"
 echo
 echo "System information"
-echo hostname : `hostname`
+echo hostname : `wget -qO- ifconfig.io/ip`
 echo `lsb_release -i`
 echo `lsb_release -d`
 echo `lsb_release -r`
